@@ -2,8 +2,8 @@ import AWS from 'aws-sdk';
 import { useState } from 'react';
 
 AWS.config.update({
-  accessKeyId: 'AKIAWKMQZAIBRTJXARUV',
-  secretAccessKey: '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',
+  accessKeyId: '<ACCESS-KEY-ID>',
+  secretAccessKey: '<SECRET-ACCESS-KEY>',
   region: 'us-east-1',
   signatureVersion: 'v4',
 });
